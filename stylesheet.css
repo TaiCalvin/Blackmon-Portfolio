@@ -1,0 +1,88 @@
+a:hover {
+  background-color: yellow;
+}
+a {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  text-align: center;
+}
+.centered{
+  text-align: center;
+  list-style-position: inside;
+}
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Graublau Web';
+  src: url('GraublauWeb.eot');
+  src: local('Graublau Web Regular'), local('Graublau Web'),
+    url("GraublauWeb.woff") format("woff"),
+    url("GraublauWeb.otf") format("opentype"),
+    url("GraublauWeb.svg#grablau") format("svg");
+}
+#header {
+  font-family: "Kimberley", sans-serif;
+}
+p, a, ul, ol, h2, h3{
+  font-family: "Graublau Web", cursive;
+}
+p {
+  text-align: center;
+}
+img{
+  border-radius: 15px;
+  box-shadow: 5px 10px blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+    width: 300px;
+    border: 9px dotted blue;
+    padding: 25px;
+    margin: 25px;
+}
+.contact {
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+input {
+
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.button{
+  background-color: red;
+}
+@media screen and (min-width:768px){
+  img{
+    width:auto;
+  }
+  form{
+    width: auto;
+    margin: auto;
+  }
+}
