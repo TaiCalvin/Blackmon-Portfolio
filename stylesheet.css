@@ -52,8 +52,8 @@ img{
   margin-right: auto;
 }
 form {
-    width: 300px;
-    border: 9px dotted blue;
+    width: 200px;
+    border: 9px groove #003300;
     padding: 25px;
     margin: 25px;
 }
@@ -85,4 +85,11 @@ input {
     width: auto;
     margin: auto;
   }
+}
+@media screen an (max-width:800px) {
+  nav{
+    float: left;
+    width: 25%;
+  }
+
 }
